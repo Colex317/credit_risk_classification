@@ -50,14 +50,14 @@ ________________________________________________________________________________
 The analysis was conducted through several stages, which are essential in the development of an effective machine-learning model.
 Since the dataset was already preprocessed (cleaned, categorical variables encoded, and numerical features standardized). The process started with data splitting.
 
-1. Data Splitting
+1. *Data Splitting*
    - Separation of labels and features: The data was divided into labels (y) from the loan status column and features (X) from the remaining columns.
    - Training and Testing Sets: The dataset was split into training and testing sets to evaluate the model's performance.
 
-2. Model Training
+2. *Model Training*
     - Logistic Regression: This algorithm is often chosen for its simplicity and effectiveness in binary classification problems.
 
-3. Model Evaluation
+3. *Model Evaluation*
       - Confusion Matrix: Used to evaluate the performance of the classification model in terms of true positives, true negatives, false positives, and false negatives.
       - Classification Report: Provided precision, recall, F1-score, and support for each class to understand the model's performance comprehensively.
 
@@ -76,8 +76,12 @@ Aids in visualizing the performance of the classification model by showing the n
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/2a51f0c3-1b24-4d8e-b7f8-567d19c3f65e">
 
 
+
+
 - True Positive: 18679 - the number of correct predictions for the positive class.
 - True Negative: 558 - the actual negative class instances accurately predicted as negative.
+
+
 
 *Classification Report*
 This report provided detailed metrics, including precision, recall, and F1-score, offering insights into the model's performance for each class.
