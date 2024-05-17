@@ -4,14 +4,14 @@
 
 Description of the analysis completed for the machine learning models used in this Challenge. 
 
-**Purpose of the Analysis**
+## Purpose of the Analysis
 
 The primary objective of this analysis was to develop and evaluate a machine learning model that can accurately predict borrowers' creditworthiness. This model aims to classify borrowers into risk categories: 0 for healthy loans and 1 for high-risk loans, thereby aiding the lending services company in making informed lending decisions and minimizing the risk of loan defaults.
 
 ________________________________________________________________________________________________________________________________________
 
 
-**Financial Information and Prediction Objective**
+## Financial Information and Prediction Objective
 
 The dataset used in this analysis consists of historical lending data from the peer-to-peer lending platform. The financial information in the dataset includes the following variables:
 
@@ -29,7 +29,7 @@ The target variable (label) we need to predict is Loan Status, which indicates w
 ________________________________________________________________________________________________________________________________________
 
 
-**Basic Information About the Variables**
+## Basic Information About the Variables
 
 To understand the distribution of the target variable (Loan Status), the value counts were examined:
 
@@ -47,19 +47,19 @@ The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the lo
 ________________________________________________________________________________________________________________________________________
 
 
-**Stages of the Machine Learning Process**
+## Stages of the Machine Learning Process
 
 The analysis was conducted through several stages, which are essential in the development of an effective machine-learning model.
 Since the dataset was already preprocessed (cleaned, categorical variables encoded, and numerical features standardized). The process started with data splitting.
 
-1. *Data Splitting*
+1. **Data Splitting**
    - Separation of labels and features: The data was divided into labels (y) from the loan status column and features (X) from the remaining columns.
    - Training and Testing Sets: The dataset was split into training and testing sets to evaluate the model's performance.
 
-2. *Model Training*
+2. **Model Training**
     - Logistic Regression: This algorithm is often chosen for its simplicity and effectiveness in binary classification problems.
 
-3. *Model Evaluation*
+3. **Model Evaluation**
       - Confusion Matrix: Used to evaluate the performance of the classification model in terms of true positives, true negatives, false positives, and false negatives.
       - Classification Report: Provided precision, recall, F1-score, and support for each class to understand the model's performance comprehensively.
 
@@ -67,14 +67,14 @@ Since the dataset was already preprocessed (cleaned, categorical variables encod
 ________________________________________________________________________________________________________________________________________
 
 
-**Methods Used**
+## Methods Used
 
-*Logical Regression* 
+**Logical Regression**
 
 
 Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and high-risk loans, based on a given data set of independent variables.
 
-*Confusion Matrix* 
+**Confusion Matrix**
 
 
 Aids in visualizing the performance of the classification model by showing the number of accurate and inaccurate instances based on the model’s predictions.
@@ -89,7 +89,7 @@ Aids in visualizing the performance of the classification model by showing the n
 
 
 
-*Classification Report*
+**Classification Report**
 
 
 This report provided detailed metrics, including precision, recall, and F1-score, offering insights into the model's performance for each class.
