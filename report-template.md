@@ -72,7 +72,7 @@ ________________________________________________________________________________
 *Logical Regression* 
 
 
-Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and unhealthy loans, based on a given data set of independent variables.
+Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and high-risk loans, based on a given data set of independent variables.
 
 *Confusion Matrix* 
 
