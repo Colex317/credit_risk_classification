@@ -11,3 +11,31 @@ The Credit Risk Classification assignment focused on using the Logical Regressio
 - [Credit_Risk](https://github.com/Colex317/credit_risk_classification/tree/main/Credit_Risk): Contains the `credit_risk_classification.ipynb` (Python file) and the `lending_data_csv`.
   
 - [Report_template](https://github.com/Colex317/credit_risk_classification/blob/main/report-template.md): Contains the description of the analysis.
+
+# Steps
+1. Split the Data into Training and Testing Sets
+  - Read the `lending_data.csv` data from the `Resources` folder into a Pandas DataFrame.
+    
+  - Create the labels set (`y`)  from the “loan_status” column, and then create the features (`X`) DataFrame from the remaining columns.
+    
+  - Split the data into training and testing datasets by using `train_test_split`.
+    
+2. Create a Logistic Regression Model with the Original Data
+  - Fit a logistic regression model by using the training data (`X_train` and `y_train`).
+    
+  - Save the predictions on the testing data labels by using the testing feature data (`X_test`) and the fitted model.
+    
+  - Evaluate the model’s performance by doing the following:
+        - Generate a confusion matrix.
+          <img width="350" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/6019de52-b8fc-4175-85b1-0693db290193">
+
+
+        - Print the classification report.
+          <img width="350" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/a0720bec-a1cd-4154-8a57-bdc1b63cb3b9">
+
+# Credit Risk Analysis Report
+An overview of the analysis: Explain the purpose of this analysis.
+
+The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
+
+A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
