@@ -6,14 +6,14 @@ Description of the analysis completed for the machine learning models used in th
 
 **Purpose of the Analysis**
 
-The primary objective of this analysis is to develop and evaluate a machine learning model that can accurately predict borrowers' creditworthiness. This model aims to classify borrowers into risk categories, thereby aiding the peer-to-peer lending services company in making informed lending decisions and minimizing the risk of loan defaults.
+The primary objective of this analysis was to develop and evaluate a machine learning model that can accurately predict borrowers' creditworthiness. This model aims to classify borrowers into risk categories: 0 for healthy loans and 1 for high-risk loans, thereby aiding the lending services company in making informed lending decisions and minimizing the risk of loan defaults.
 
 ________________________________________________________________________________________________________________________________________
 
 
 **Financial Information and Prediction Objective**
 
-The dataset used in this analysis consists of historical lending data from a peer-to-peer lending platform. The financial information in the dataset includes the following variables:
+The dataset used in this analysis consists of historical lending data from the peer-to-peer lending platform. The financial information in the dataset includes the following variables:
 
    - Loan Size: The amount of money requested by the borrower.
    - Interest Rate: The interest rate assigned to the loan.
