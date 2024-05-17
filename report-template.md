@@ -31,7 +31,7 @@ ________________________________________________________________________________
 
 **Basic Information About the Variables**
 
-To understand the distribution of the target variable (Loan Status), we examined its value counts:
+To understand the distribution of the target variable (Loan Status), the value counts were examined:
 
 
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/0babce1f-d9fd-4ce2-ae1b-495475836ce4">
