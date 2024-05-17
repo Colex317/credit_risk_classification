@@ -8,6 +8,9 @@ Description of the analysis completed for the machine learning models used in th
 
 The primary objective of this analysis is to develop and evaluate a machine learning model that can accurately predict borrowers' creditworthiness. This model aims to classify borrowers into risk categories, thereby aiding the peer-to-peer lending services company in making informed lending decisions and minimizing the risk of loan defaults.
 
+
+
+
 **Financial Information and Prediction Objective**
 
 The dataset used in this analysis consists of historical lending data from a peer-to-peer lending platform. The financial information in the dataset includes the following variables:
@@ -22,12 +25,20 @@ The dataset used in this analysis consists of historical lending data from a pee
 
 The target variable (label) we need to predict is Loan Status, which indicates whether the loan is healthy or has a high risk of default.
 
+
+
+
+
 **Basic Information About the Variables**
 To understand the distribution of the target variable (Loan Status), we examined its value counts:
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/0babce1f-d9fd-4ce2-ae1b-495475836ce4">
 
 
 The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the loans were in the healthy (0) category, and the remainder of 2 500 have a high risk of default (1).
+
+
+
+
 
 **Stages of the Machine Learning Process**
 The analysis was conducted through several stages, which are essential in the development of an effective machine-learning model:
@@ -44,12 +55,17 @@ Since the dataset was already preprocessed (cleaned, categorical variables encod
       - Confusion Matrix: Used to evaluate the performance of the classification model in terms of true positives, true negatives, false positives, and false negatives.
       - Classification Report: Provided precision, recall, F1-score, and support for each class to understand the model's performance comprehensively.
 
+
+
+
+
 **Methods Used**
 *Logical Regression* 
 Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and unhealthy loans, based on a given data set of independent variables.
 
 *Confusion Matrix* 
 Aids in visualizing the performance of the classification model by showing the number of accurate and inaccurate instances based on the model’s predictions.
+
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/2a51f0c3-1b24-4d8e-b7f8-567d19c3f65e">
 
 
@@ -60,9 +76,15 @@ True Negative: 558 - the actual negative class instances accurately predicted as
 This report provided detailed metrics, including precision, recall, and F1-score, offering insights into the model's performance for each class.
 
 
+
+
+
+
 ## Results
 
+
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/e7a189ae-2445-4cd7-9e57-e345a98fb060">
+
 
 - **Accuracy** is the overall proportion of correct predictions (both true positives and true negatives) out of all predictions made. 
       - An accuracy of 0.99 means 99% of the total predictions made by the model are correct.
@@ -74,6 +96,9 @@ This report provided detailed metrics, including precision, recall, and F1-score
 - **Recall** measures the percentage of correct positive predictions relative to total actual positives.
       - For class 0, recall is 1.00, meaning all actual instances of class 0 were correctly identified.
       - For class 1, recall is 0.89, meaning 89% of the actual class 1 instances were correctly identified.
+
+
+
 
 
 ## Summary
