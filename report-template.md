@@ -39,7 +39,7 @@ To understand the distribution of the target variable (Loan Status), the value c
 
 
 
-The dataset provides 77, 536 loan statuses. Ninety-six (75, 036) percent of the loans were in the healthy (0) category, and the remainder of 2, 500 have a high risk of default (1).
+The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the loans were in the healthy (0) category, and the remainder of 2,500 have a high risk of default (1).
 
 
 ________________________________________________________________________________________________________________________________________
