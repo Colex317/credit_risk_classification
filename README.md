@@ -30,9 +30,8 @@ The Credit Risk Classification assignment focused on using the Logical Regressio
     - Evaluate the model’s performance by doing the following: 
       - *Generate a confusion matrix*
     <img width="550" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/6019de52-b8fc-4175-85b1-0693db290193">
-
-
-        - *Print the classification report*
+  
+      - *Print the classification report*
     <img width="550" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/a0720bec-a1cd-4154-8a57-bdc1b63cb3b9">
 
 # Credit Risk Analysis Report
