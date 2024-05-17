@@ -2,7 +2,7 @@
 
 # Overview of the Analysis
 
-Description of the analysis completed for the machine learning models used in this Challenge. 
+Description of the analysis completed for the machine learning models used in this Challenge
 
 ## Purpose of the Analysis
 
