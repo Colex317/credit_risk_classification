@@ -39,6 +39,8 @@ To understand the distribution of the target variable (Loan Status), the value c
 
 
 
+
+
 The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the loans were in the healthy (0) category, and the remainder of 2,500 have a high risk of default (1).
 
 
@@ -68,6 +70,8 @@ ________________________________________________________________________________
 **Methods Used**
 
 *Logical Regression* 
+
+
 Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and unhealthy loans, based on a given data set of independent variables.
 
 *Confusion Matrix* 
