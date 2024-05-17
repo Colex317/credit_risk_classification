@@ -31,7 +31,7 @@ The target variable (label) we need to predict is Loan Status, which indicates w
 
 ## Basic Information About the Variables
 
-To understand the distribution of the target variable (Loan Status), the value counts were examined. The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the loans were in the healthy (0) category, and the remainder of 2,500 had a high risk of default (1).
+To understand the distribution of the target variable (Loan Status), the value counts were examined. The dataset provides 77,536 loan statuses. Ninety-six (75,036) percent of the loans were in the healthy (0) category, and the remainder of 2,500 had a high risk of default (1).
 
 
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/0babce1f-d9fd-4ce2-ae1b-495475836ce4">
