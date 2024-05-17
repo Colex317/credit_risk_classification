@@ -19,7 +19,9 @@ The Credit Risk Classification assignment focused on using the Logical Regressio
     - Create the labels set (`y`)  from the “loan_status” column, and then create the features (`X`) DataFrame from the remaining columns.
       
     - Split the data into training and testing datasets by using `train_test_split`.
-    
+
+
+    -------------------------------------------------------------------------------------------------------------------------------------
 2. Create a Logistic Regression Model with the Original Data
    - Fit a logistic regression model by using the training data (`X_train` and `y_train`).
       
@@ -30,7 +32,7 @@ The Credit Risk Classification assignment focused on using the Logical Regressio
     <img width="550" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/6019de52-b8fc-4175-85b1-0693db290193">
 
 
-      - Print the classification report.
+        - Print the classification report.
     <img width="550" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/a0720bec-a1cd-4154-8a57-bdc1b63cb3b9">
 
 # Credit Risk Analysis Report
