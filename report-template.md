@@ -71,6 +71,8 @@ ________________________________________________________________________________
 Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and unhealthy loans, based on a given data set of independent variables.
 
 *Confusion Matrix* 
+
+
 Aids in visualizing the performance of the classification model by showing the number of accurate and inaccurate instances based on the model’s predictions.
 
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/2a51f0c3-1b24-4d8e-b7f8-567d19c3f65e">
@@ -84,6 +86,8 @@ Aids in visualizing the performance of the classification model by showing the n
 
 
 *Classification Report*
+
+
 This report provided detailed metrics, including precision, recall, and F1-score, offering insights into the model's performance for each class.
 
 
