@@ -37,6 +37,8 @@ To understand the distribution of the target variable (Loan Status), we examined
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/0babce1f-d9fd-4ce2-ae1b-495475836ce4">
 
 
+
+
 The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the loans were in the healthy (0) category, and the remainder of 2 500 have a high risk of default (1).
 
 
@@ -44,6 +46,7 @@ ________________________________________________________________________________
 
 
 **Stages of the Machine Learning Process**
+
 The analysis was conducted through several stages, which are essential in the development of an effective machine-learning model:
 Since the dataset was already preprocessed (cleaned, categorical variables encoded, and numerical features standardized). The process started with data splitting.
 
@@ -63,6 +66,7 @@ ________________________________________________________________________________
 
 
 **Methods Used**
+
 *Logical Regression* 
 Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and unhealthy loans, based on a given data set of independent variables.
 
