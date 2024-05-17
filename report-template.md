@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 **Stages of the Machine Learning Process**
 
-The analysis was conducted through several stages, which are essential in the development of an effective machine-learning model:
+The analysis was conducted through several stages, which are essential in the development of an effective machine-learning model.
 Since the dataset was already preprocessed (cleaned, categorical variables encoded, and numerical features standardized). The process started with data splitting.
 
 1. Data Splitting
