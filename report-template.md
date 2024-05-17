@@ -76,8 +76,8 @@ Aids in visualizing the performance of the classification model by showing the n
 <img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/2a51f0c3-1b24-4d8e-b7f8-567d19c3f65e">
 
 
-True Positive: 18679 - the number of correct predictions for the positive class.
-True Negative: 558 - the actual negative class instances accurately predicted as negative.
+- True Positive: 18679 - the number of correct predictions for the positive class.
+- True Negative: 558 - the actual negative class instances accurately predicted as negative.
 
 *Classification Report*
 This report provided detailed metrics, including precision, recall, and F1-score, offering insights into the model's performance for each class.
