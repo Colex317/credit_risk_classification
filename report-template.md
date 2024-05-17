@@ -24,7 +24,8 @@ The target variable (label) we need to predict is Loan Status, which indicates w
 
 **Basic Information About the Variables**
 To understand the distribution of the target variable (Loan Status), we examined its value counts:
-<img width="350" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/c7f758a3-9ab2-4ffb-be46-21061f8a0946">
+<img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/0babce1f-d9fd-4ce2-ae1b-495475836ce4">
+
 
 The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the loans were in the healthy (0) category, and the remainder of 2 500 have a high risk of default (1).
 
@@ -49,7 +50,7 @@ Was the primary algorithm used due to its interpretability and efficiency in han
 
 *Confusion Matrix* 
 Aids in visualizing the performance of the classification model by showing the number of accurate and inaccurate instances based on the model’s predictions.
-<img width="350" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/2a51f0c3-1b24-4d8e-b7f8-567d19c3f65e">
+<img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/2a51f0c3-1b24-4d8e-b7f8-567d19c3f65e">
 
 
 True Positive: 18679 - the number of correct predictions for the positive class.
@@ -61,7 +62,7 @@ This report provided detailed metrics, including precision, recall, and F1-score
 
 ## Results
 
-<img width="350" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/e7a189ae-2445-4cd7-9e57-e345a98fb060">
+<img width="500" alt="image" src="https://github.com/Colex317/credit_risk_classification/assets/148498483/e7a189ae-2445-4cd7-9e57-e345a98fb060">
 
 - **Accuracy** is the overall proportion of correct predictions (both true positives and true negatives) out of all predictions made. 
       - An accuracy of 0.99 means 99% of the total predictions made by the model are correct.
