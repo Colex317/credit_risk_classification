@@ -8,7 +8,7 @@ Description of the analysis completed for the machine learning models used in th
 
 The primary objective of this analysis was to develop and evaluate a machine learning model that can accurately predict borrowers' creditworthiness. This model aims to classify borrowers into risk categories: 0 for healthy loans and 1 for high-risk loans, thereby aiding the lending services company in making informed lending decisions and minimizing the risk of loan defaults.
 
-________________________________________________________________________________________________________________________________________
+
 
 
 ## Financial Information and Prediction Objective
@@ -26,7 +26,7 @@ The dataset used in this analysis consists of historical lending data from the p
 The target variable (label) we need to predict is Loan Status, which indicates whether the loan is healthy or has a high risk of default.
 
 
-________________________________________________________________________________________________________________________________________
+
 
 
 ## Basic Information About the Variables
@@ -44,7 +44,6 @@ To understand the distribution of the target variable (Loan Status), the value c
 The dataset provides 77 536 loan statuses. Ninety-six (75 036) percent of the loans were in the healthy (0) category, and the remainder of 2,500 have a high risk of default (1).
 
 
-________________________________________________________________________________________________________________________________________
 
 
 ## Stages of the Machine Learning Process
@@ -64,7 +63,6 @@ Since the dataset was already preprocessed (cleaned, categorical variables encod
       - Classification Report: Provided precision, recall, F1-score, and support for each class to understand the model's performance comprehensively.
 
 
-________________________________________________________________________________________________________________________________________
 
 
 ## Methods Used
@@ -72,7 +70,7 @@ ________________________________________________________________________________
 **Logical Regression**
 
 
-Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. Logistic regression estimates the probability of an event occurring, such as healthy and high-risk loans, based on a given data set of independent variables.
+Was the primary algorithm used due to its interpretability and efficiency in handling binary classification tasks. It estimates the probability of an event occurring, such as healthy and high-risk loans, based on a given data set of independent variables.
 
 **Confusion Matrix**
 
